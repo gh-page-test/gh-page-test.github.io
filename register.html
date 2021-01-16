@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	
+	<meta charset="UTF-8">
+	<title>
+		Регистрация на сайте МОУ "Лицей №1 "Лидер" г. Макеевки"
+	</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style_log.css" type="text/css">
+	<link rel="stylesheet" href="css/normalize.css" type="text/css">
+</head>
+<body>
+	<div id="main">
+	<h3>Регистрация</h3>
+	<form action="/auth/register/" method="POST">
+		<input required maxlength="25" class="input" name="username" type="text" placeholder="Введите ваш логин...">
+		<input required maxlength="150" class="input" name="email" type="email" placeholder="Введите адрес вашей почты...">
+		<input required maxlength="150" class="input" name="password1" type="password" placeholder="Введите ваш пароль...">
+		<input required maxlength="150" class="input" name="password2" type="password" placeholder="Повторите ваш пароль...">
+		<input id="btn" class="input" type="submit" value="ЗАРЕГИСТРИРОВАТЬСЯ">
+	</form>
+	<div id="footer">
+		<a href="login.html">Если у вас уже есть аккаунт - войдите!</a>
+	</div>
+</div>
+</body>
+</html>
